@@ -30,6 +30,9 @@ GET /api/1/users
 ```
 ```json
 {
+    "total": 2,
+    "limit": 10,
+    "offset": 0,
     "users": [
 	        {
 	            "id": "1",
@@ -49,11 +52,7 @@ GET /api/1/users
 	            "photo_url": "https://desafio.eadplataforma.com/front/assets/geovane.jpg",
 	            "status": "0"
 	        }
-	],
-    "total": 2,
-    "limit": 10,
-    "page": 1,
-    "pages": 1
+	]
 }
 ```
 ```
@@ -72,6 +71,11 @@ GET /api/1/profile/:id
 ```
 ```
 status: 0 = Adimplente / 1 = Inadimplente
+```
+
+### Paginação
+```
+GET /api/1/users?offset=10 = Indica o início da leitura à partir do registro 10.
 ```
 
 ### Diretrizes
