@@ -85,9 +85,9 @@ GET /api/1/users?offset=10 = Indica o início da leitura à partir do registro 1
 
 - Faça o uso de componentes de forma genérica e escalável;
 
-- Utilize algum pré-processador para o seu css, de preferência [SASS](https://sass-lang.com/).
+- Utilize algum pré-processador para o seu css, de preferência [SASS](https://sass-lang.com/). (Se quiser, fique a vontade para usar alguma lib/framework CSS);
 
-- Faça com que sua página tenha uma ótima experiência para o usuário, independente do dispositivo que ele esteja usando; (Se quiser, fique a vontade para usar alguma lib/framework CSS);
+- Faça com que sua página tenha uma ótima experiência para o usuário, independente do dispositivo que ele esteja usando;
 
 - Utilize um código limpo e bem organizado, e de preferência, utilize alguma arquitetura modular para organizar seus arquivos CSS/SASS e os assets utilizados;
 
