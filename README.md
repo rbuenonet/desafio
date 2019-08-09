@@ -18,7 +18,7 @@ O usuário deverá ser capaz de realizar uma busca consumindo os dados da API co
 
 ### API
 ```url
-https://desafio.eadplataforma.com/api/1
+http://desafio.eadplataforma.com/api/1
 ```
 ### Acesso
 ```
@@ -40,7 +40,7 @@ GET /api/1/users
 	            "email": "ronaldo.abreu@meusite.com.br",
 	            "phone": "(14) 99745-1234",
 	            "amount": "251.59",
-	            "photo_url": "https://desafio.eadplataforma.com/front/assets/ronaldo.jpg",
+	            "photo_url": "http://desafio.eadplataforma.com/front/assets/ronaldo.jpg",
 	            "status": "1"
 	        },
 	        {
@@ -49,7 +49,7 @@ GET /api/1/users
 	            "email": "geovane.felix@meusite.com.br",
 	            "phone": "(14) 99745-5678",
 	            "amount": "265.59",
-	            "photo_url": "https://desafio.eadplataforma.com/front/assets/geovane.jpg",
+	            "photo_url": "http://desafio.eadplataforma.com/front/assets/geovane.jpg",
 	            "status": "0"
 	        }
 	]
@@ -65,7 +65,7 @@ GET /api/1/profile/:id
     "email": "ronaldo.abreu@meusite.com.br",
     "phone": "(14) 99745-1234",
     "amount": "251.59",
-    "photo_url": "https://desafio.eadplataforma.com/front/assets/ronaldo.jpg",
+    "photo_url": "http://desafio.eadplataforma.com/front/assets/ronaldo.jpg",
     "status": "1"
 }
 ```
